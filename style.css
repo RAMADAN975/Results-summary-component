@@ -33,9 +33,7 @@ body {
 
 .main .card {
   background-color: white;
-  width: 70%;
-  height: 75vh;
-  margin: 0 auto;
+  margin: 0rem 4rem;
   border-radius: 2rem;
   display: flex;
 }
@@ -47,9 +45,8 @@ body {
     hsl(252, 100%, 67%),
     hsl(241, 81%, 54%)
   );
-  height: 100%;
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 4.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -57,13 +54,13 @@ body {
 }
 
 .main .card .min-card .circle {
-  width: 62%;
-  border-radius: 50%;
+  padding: 3rem 4.5rem;
   margin: 0 auto;
-  height: 54%;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(
     to bottom,
     hsla(256, 72%, 46%, 1),
@@ -88,7 +85,7 @@ body {
 }
 
 .main .card .min-card p {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   font-size: 1.1rem;
   color: hsl(241, 100%, 89%);
@@ -98,7 +95,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem;
   font-weight: bold;
 }
@@ -171,4 +168,13 @@ body {
   background-color: hsl(224, 30%, 27%);
   font-size: 1.1rem;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.main .card .summary button:hover {
+  padding: 23px;
+}
+
+@media (max-width: 992px) {
 }
