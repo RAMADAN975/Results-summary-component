@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Hanken Grotesk";
-  src: url("assets/fonts/static/HankenGrotesk-Bold.ttf");
+  src: url("assets/fonts/static/HankenGrotesk-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Hanken Grotesk";
-  src: url("/assets/fonts/static/HankenGrotesk-Medium.ttf");
+  src: url("assets/fonts/static/HankenGrotesk-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Hanken Grotesk";
-  src: url("/assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+  src: url("assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
   font-weight: 800;
 }
 
@@ -168,6 +168,7 @@ body {
   background-color: hsl(224, 30%, 27%);
   font-size: 1.1rem;
   color: #ffffff;
+  font-weight: 700;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -177,4 +178,21 @@ body {
 }
 
 @media (max-width: 992px) {
+  .main {
+    width: 100%;
+    padding: 0rem;
+  }
+  .main .card {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0px;
+  }
+  .main .card .min-card {
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+  }
+  .main .card .summary {
+    width: 100%;
+  }
 }
