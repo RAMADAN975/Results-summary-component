@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: hsl(221, 100%, 96%);
+}
+
+.main {
+  padding: 4.5rem;
+}
+
+.main .card {
+  background-color: white;
+  width: 70%;
+  height: 75vh;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.main .card .min-card {
+  width: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  height: 100%;
+  border-radius: 2rem;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main .card .min-card .circle {
+  width: 80%;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border: none;
+}
+
+.main .card .min-card h3 {
+  color: hsl(241, 100%, 89%);
+  font-size: 1.5rem;
+}
+
+.main .card .min-card .circle h1 {
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.main .card .min-card .circle h5 {
+  color: hsl(241, 100%, 89%);
+  font-size: 1rem;
+}
+
+.main .card .min-card p {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: hsl(241, 100%, 89%);
+}
